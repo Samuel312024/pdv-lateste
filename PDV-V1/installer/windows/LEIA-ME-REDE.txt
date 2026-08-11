@@ -1,0 +1,27 @@
+PDV CONTROL HUB - REDE
+
+1) SERVIDOR LOCAL
+- Abra "PDV Control Hub" para usar so nesta maquina.
+
+2) SERVIDOR EM REDE
+- Abra "PDV Control Hub (Rede Local)" na maquina principal.
+- O sistema mostrara o endereco para acesso dos outros computadores.
+- Exemplo: http://192.168.15.4:5080/login
+
+3) CLIENTE DE REDE
+- No outro computador, use o atalho "Abrir PDV da Rede".
+- Informe o IP ou nome da maquina principal.
+
+4) BANCO DE DADOS
+- Se esta maquina nao usa o mesmo SQL local, edite o arquivo appsettings.Override.json.
+- Exemplo:
+  {
+    "ConnectionStrings": {
+      "DefaultConnection": "Server=SERVIDORSQL;Database=GestaoTI;User Id=USUARIO;Password=SENHA;TrustServerCertificate=True;Encrypt=False;"
+    }
+  }
+
+5) PORTAS
+- O launcher tenta 5080, 5081, 5082, 5083 e 5090.
+- Se houver erro de inicializacao, veja os logs em:
+  %LOCALAPPDATA%\PDV Control Hub\logs

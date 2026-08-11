@@ -1,0 +1,19 @@
+CERTIFICADO DE DESENVOLVIMENTO - NAO ICP-BRASIL
+
+Uso esperado:
+- testar upload do arquivo na UI
+- testar armazenamento da senha
+- testar leitura local da chave privada
+
+Limites:
+- NAO sera aceito pela Nuvem Fiscal
+- NAO sera aceito pela SEFAZ
+- NAO substitui um certificado ICP-Brasil A1 real
+
+Assunto: CN=PDV Dev NF-e UI Test, O=PDV Local Development, C=BR
+Emitente: CN=PDV Dev NF-e UI Test, O=PDV Local Development, C=BR
+Valido ate: 2027-05-08 01:32:17
+Thumbprint: 228533A8A3F57B8D4DE2C025B6E098C1F97AE338
+Senha do PFX: pdv-dev-123
+Arquivo PFX: C:\Users\Samuel\source\repos\PDV-V1\.codex-temp\certificados-dev\pdv-dev-nfe-test.pfx
+Arquivo CER: C:\Users\Samuel\source\repos\PDV-V1\.codex-temp\certificados-dev\pdv-dev-nfe-test.cer
