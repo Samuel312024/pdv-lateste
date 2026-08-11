@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+node_modules/
+dist/
+*.tsbuildinfo
+src/PDV.Web/vite.config.js
+src/PDV.Web/vite.config.d.ts
+*.user
+*.suo
+*.cache
